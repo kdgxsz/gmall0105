@@ -1,6 +1,6 @@
 package com.kdgx.gmall.user.mapper;
 
-import com.kdgx.gmall.user.bean.UmsMemberReceiveAddress;
+import com.kdgx.gmall.bean.UmsMemberReceiveAddress;
 import tk.mybatis.mapper.common.Mapper;
 
 /**

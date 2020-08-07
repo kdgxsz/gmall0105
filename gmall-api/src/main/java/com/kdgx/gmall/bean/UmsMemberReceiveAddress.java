@@ -1,4 +1,4 @@
-package com.kdgx.gmall.user.bean;
+package com.kdgx.gmall.bean;
 
 import javax.persistence.Id;
 import java.io.Serializable;

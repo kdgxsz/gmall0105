@@ -1,9 +1,8 @@
 package com.kdgx.gmall.user.mapper;
 
-import com.kdgx.gmall.user.bean.UmsMember;
+import com.kdgx.gmall.bean.UmsMember;
 import tk.mybatis.mapper.common.Mapper;
 
-import java.util.List;
 
 /**
  * @author 尚郑

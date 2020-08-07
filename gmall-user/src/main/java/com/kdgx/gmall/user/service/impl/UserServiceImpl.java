@@ -1,10 +1,10 @@
 package com.kdgx.gmall.user.service.impl;
 
-import com.kdgx.gmall.user.bean.UmsMember;
-import com.kdgx.gmall.user.bean.UmsMemberReceiveAddress;
+import com.kdgx.gmall.bean.UmsMember;
+import com.kdgx.gmall.bean.UmsMemberReceiveAddress;
+import com.kdgx.gmall.service.UserService;
 import com.kdgx.gmall.user.mapper.UmsMemberReceiveAddressMapper;
 import com.kdgx.gmall.user.mapper.UserMapper;
-import com.kdgx.gmall.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -36,4 +36,6 @@ public class UserServiceImpl implements UserService {
         List<UmsMemberReceiveAddress> umsMemberReceiveAddresses = umsMemberReceiveAddressMapper.select(umsMemberReceiveAddress);
         return umsMemberReceiveAddresses;
     }
+
+
 }

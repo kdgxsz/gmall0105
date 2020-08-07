@@ -1,8 +1,8 @@
 package com.kdgx.gmall.user.controller;
 
-import com.kdgx.gmall.user.bean.UmsMember;
-import com.kdgx.gmall.user.bean.UmsMemberReceiveAddress;
-import com.kdgx.gmall.user.service.UserService;
+import com.kdgx.gmall.service.UserService;
+import com.kdgx.gmall.bean.UmsMember;
+import com.kdgx.gmall.bean.UmsMemberReceiveAddress;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -42,7 +42,6 @@ public class UserController {
         List<UmsMember> umsMembers = userService.getAllUser();
         return umsMembers;
     }
-
 
 
     /**
