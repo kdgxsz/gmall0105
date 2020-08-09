@@ -3,4 +3,6 @@
 gmall-user用户服务8080
 gmall-parent工程的父模块
 gmall-api工程的api
+gmall-common-util sercice层
+gmall-web-util  controll层
 
